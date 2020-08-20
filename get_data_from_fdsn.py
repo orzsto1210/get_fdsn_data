@@ -196,17 +196,17 @@ def calc_pgv_intensity(my_st):
         intensity = 2
     elif pgv >= 1.9 and pgv < 5.7:
         intensity = 3
-    elif pgv >= 5.7 and pgv < 17:
+    elif pgv >= 5.7 and pgv < 15:
         intensity = 4
-    elif pgv >= 17 and pgv < 28:
+    elif pgv >= 15 and pgv < 30:
         intensity = 5.1
-    elif pgv >= 28 and pgv < 49:
+    elif pgv >= 30 and pgv < 50:
         intensity = 5.5
-    elif pgv >= 49 and pgv < 83:
+    elif pgv >= 50 and pgv < 80:
         intensity = 6.1
-    elif pgv >= 83 and pgv < 143:
+    elif pgv >= 80 and pgv < 140:
         intensity = 6.5
-    elif pgv >= 143:
+    elif pgv >= 140:
         intensity = 7
     else:
         intensity = -1
